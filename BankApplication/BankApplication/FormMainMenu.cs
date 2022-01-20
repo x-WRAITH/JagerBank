@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BankApplication.Forms;
 using FontAwesome.Sharp;
-using Classa;
+using ClassLibrary;
 
 namespace BankApplication
 {
@@ -33,7 +33,6 @@ namespace BankApplication
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             OpenChildForm(new FormJagerBank());
-
         }
 
         private struct RGBColor
