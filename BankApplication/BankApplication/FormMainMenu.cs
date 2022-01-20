@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using BankApplication.Forms;
 using FontAwesome.Sharp;
 using ClassLibrary;
+using TechSupport;
 
 namespace BankApplication
 {
@@ -25,6 +26,7 @@ namespace BankApplication
         public FormMainMenu()
         {
             InitializeComponent();
+            bankapp.user = new User{ id=1, type=UserType.User };
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
@@ -159,7 +161,8 @@ namespace BankApplication
         private void btnOnlinehelp_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color8);
-            OpenChildForm(new FormOnlineHelp());
+            OpenChildForm(new FormJagerBank());
+            TechSupportControl.OpenSupport(bankapp);
         }
         //drag from
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
