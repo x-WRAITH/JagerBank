@@ -49,8 +49,6 @@ namespace BankApplication
             public static Color color9 = Color.FromArgb(214, 215, 223);
         }
 
-
-
         private void ActivateButton(object senderBtn, Color color)
         {
             if (senderBtn != null)
