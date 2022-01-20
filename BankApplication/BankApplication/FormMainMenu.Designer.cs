@@ -84,7 +84,7 @@ namespace BankApplication
             this.btnSettings.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSettings.IconSize = 32;
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.Location = new System.Drawing.Point(0, 550);
+            this.btnSettings.Location = new System.Drawing.Point(0, 531);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnSettings.Size = new System.Drawing.Size(173, 60);
@@ -107,7 +107,7 @@ namespace BankApplication
             this.btnOnlinehelp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnOnlinehelp.IconSize = 32;
             this.btnOnlinehelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOnlinehelp.Location = new System.Drawing.Point(0, 490);
+            this.btnOnlinehelp.Location = new System.Drawing.Point(0, 471);
             this.btnOnlinehelp.Name = "btnOnlinehelp";
             this.btnOnlinehelp.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnOnlinehelp.Size = new System.Drawing.Size(173, 60);
@@ -130,7 +130,7 @@ namespace BankApplication
             this.btnFriends.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnFriends.IconSize = 32;
             this.btnFriends.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFriends.Location = new System.Drawing.Point(0, 430);
+            this.btnFriends.Location = new System.Drawing.Point(0, 411);
             this.btnFriends.Name = "btnFriends";
             this.btnFriends.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnFriends.Size = new System.Drawing.Size(173, 60);
@@ -153,7 +153,7 @@ namespace BankApplication
             this.btnStockmarket.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnStockmarket.IconSize = 32;
             this.btnStockmarket.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStockmarket.Location = new System.Drawing.Point(0, 370);
+            this.btnStockmarket.Location = new System.Drawing.Point(0, 351);
             this.btnStockmarket.Name = "btnStockmarket";
             this.btnStockmarket.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnStockmarket.Size = new System.Drawing.Size(173, 60);
@@ -176,7 +176,7 @@ namespace BankApplication
             this.btnExchange.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnExchange.IconSize = 32;
             this.btnExchange.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExchange.Location = new System.Drawing.Point(0, 310);
+            this.btnExchange.Location = new System.Drawing.Point(0, 291);
             this.btnExchange.Name = "btnExchange";
             this.btnExchange.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnExchange.Size = new System.Drawing.Size(173, 60);
@@ -199,7 +199,7 @@ namespace BankApplication
             this.btnTransfers.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTransfers.IconSize = 32;
             this.btnTransfers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransfers.Location = new System.Drawing.Point(0, 250);
+            this.btnTransfers.Location = new System.Drawing.Point(0, 231);
             this.btnTransfers.Name = "btnTransfers";
             this.btnTransfers.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnTransfers.Size = new System.Drawing.Size(173, 60);
@@ -222,7 +222,7 @@ namespace BankApplication
             this.btnCards.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCards.IconSize = 32;
             this.btnCards.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCards.Location = new System.Drawing.Point(0, 190);
+            this.btnCards.Location = new System.Drawing.Point(0, 171);
             this.btnCards.Name = "btnCards";
             this.btnCards.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnCards.Size = new System.Drawing.Size(173, 60);
@@ -245,7 +245,7 @@ namespace BankApplication
             this.btnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDashboard.IconSize = 32;
             this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 130);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 111);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnDashboard.Size = new System.Drawing.Size(173, 60);
@@ -262,7 +262,7 @@ namespace BankApplication
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(173, 130);
+            this.panelLogo.Size = new System.Drawing.Size(173, 111);
             this.panelLogo.TabIndex = 0;
             // 
             // btnlogoHome
@@ -274,10 +274,10 @@ namespace BankApplication
             this.btnlogoHome.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnlogoHome.IconColor = System.Drawing.SystemColors.ControlText;
             this.btnlogoHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnlogoHome.IconSize = 130;
+            this.btnlogoHome.IconSize = 112;
             this.btnlogoHome.Location = new System.Drawing.Point(0, 0);
             this.btnlogoHome.Name = "btnlogoHome";
-            this.btnlogoHome.Size = new System.Drawing.Size(173, 130);
+            this.btnlogoHome.Size = new System.Drawing.Size(173, 112);
             this.btnlogoHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnlogoHome.TabIndex = 0;
             this.btnlogoHome.TabStop = false;

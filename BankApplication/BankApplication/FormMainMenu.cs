@@ -10,11 +10,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BankApplication.Forms;
 using FontAwesome.Sharp;
+using Classa;
 
 namespace BankApplication
 {
     public partial class FormMainMenu : Form
     {
+        BankApp bankapp = new BankApp();
+
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
