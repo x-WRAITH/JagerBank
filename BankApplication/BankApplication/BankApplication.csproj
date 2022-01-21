@@ -139,12 +139,6 @@
     <Compile Include="Forms\FormFriends.Designer.cs">
       <DependentUpon>FormFriends.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormOnlineHelp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormOnlineHelp.Designer.cs">
-      <DependentUpon>FormOnlineHelp.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FormSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,9 +173,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormExchange.resx">
       <DependentUpon>FormExchange.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormOnlineHelp.resx">
-      <DependentUpon>FormOnlineHelp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormSettings.resx">
       <DependentUpon>FormSettings.cs</DependentUpon>
