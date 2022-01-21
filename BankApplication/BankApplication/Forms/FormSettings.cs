@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BankApplication.Forms
 {
-    public partial class FormSettings : Form
+    public partial class FormExchange : Form
     {
-        public FormSettings()
+        public FormExchange()
         {
             InitializeComponent();
         }

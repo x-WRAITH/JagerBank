@@ -6,7 +6,6 @@ using BankApplication.Forms;
 using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
-using config_library;
 
 namespace BankApplication
 {
@@ -127,7 +126,6 @@ namespace BankApplication
             ActivateButton(sender, RGBColor.color6);
             OpenChildForm(new FormSettings());
             
-
         }
 
         private void btnCards_Click(object sender, EventArgs e)
