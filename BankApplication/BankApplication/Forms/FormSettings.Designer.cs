@@ -29,15 +29,7 @@ namespace BankApplication.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.config_control1 = new config_library.config_control();
             this.SuspendLayout();
-            // 
-            // config_control1
-            // 
-            this.config_control1.Location = new System.Drawing.Point(-1, 1);
-            this.config_control1.Name = "config_control1";
-            this.config_control1.Size = new System.Drawing.Size(801, 449);
-            this.config_control1.TabIndex = 0;
             // 
             // FormSettings
             // 
@@ -45,7 +37,6 @@ namespace BankApplication.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.config_control1);
             this.Name = "FormSettings";
             this.Text = "Settings";
             this.ResumeLayout(false);
@@ -53,7 +44,5 @@ namespace BankApplication.Forms
         }
 
         #endregion
-
-        private config_library.config_control config_control1;
     }
 }
