@@ -12,7 +12,7 @@ namespace BankApplication
 {
     public partial class FormMainMenu : Form
     {
-        BankApp bankapp = new BankApp();
+        public BankApp bankapp = new BankApp();
 
         private IconButton currentBtn;
         private Panel leftBorderBtn;

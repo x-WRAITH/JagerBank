@@ -7,15 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using config_library;
 
 namespace BankApplication.Forms
 {
     public partial class FormSettings : Form
-    {
+    {      
         public FormSettings()
         {
             InitializeComponent();
+            
         }
     }
 }
