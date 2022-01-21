@@ -138,12 +138,6 @@
     <Compile Include="Forms\FormDashboard.Designer.cs">
       <DependentUpon>FormDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormExchange.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormExchange.Designer.cs">
-      <DependentUpon>FormExchange.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FormFriends.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,9 +172,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormDashboard.resx">
       <DependentUpon>FormDashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormExchange.resx">
-      <DependentUpon>FormExchange.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormStockMarket.resx">
       <DependentUpon>FormStockMarket.cs</DependentUpon>

@@ -143,7 +143,6 @@ namespace BankApplication
         private void btnExchange_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color4);
-            OpenChildForm(new FormExchange());
         }
 
         private void btnStockmarket_Click(object sender, EventArgs e)
