@@ -13,6 +13,7 @@ namespace BankApplication
     public partial class FormMainMenu : Form
     {
         public BankApp bankapp = new BankApp();
+        public config jakub = new config(); //kuby dziwna kontrolka xddd
 
         private IconButton currentBtn;
         private Panel leftBorderBtn;
@@ -25,6 +26,7 @@ namespace BankApplication
 
             bankapp.user = new User{ id=3, type=UserType.User, balance=2000, password="Asdasd", firstname="Kamil" };
 
+            jakub.setUser(Convert.ToString(bankapp.user.id)); //kuby dziwna kontrolka xddd
 
 
             leftBorderBtn = new Panel();
@@ -125,8 +127,6 @@ namespace BankApplication
         private void btnSettings_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color6);
-            config jakub = new config();
-            jakub.setUser(Convert.ToString(bankapp.user.id));
             OpenChildForm(new FormSettings());
             jakub.LaunguageChanged += Jakub_LaunguageChanged;
             jakub.ColorChanged += Jakub_ColorChanged;
