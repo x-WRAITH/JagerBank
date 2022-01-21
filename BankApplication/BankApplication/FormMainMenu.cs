@@ -26,7 +26,12 @@ namespace BankApplication
         public FormMainMenu()
         {
             InitializeComponent();
+
+
             bankapp.user = new User{ id=1, type=UserType.User, balance=2000, password="Asdasd", firstname="Kamil" };
+
+
+
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
