@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using config_library;
 
 namespace BankApplication.Forms
 {
@@ -15,7 +9,9 @@ namespace BankApplication.Forms
         public FormSettings()
         {
             InitializeComponent();
-            
+            config asd = new config();
+
+            asd.setUser(Convert.ToString(3));
         }
     }
 }
