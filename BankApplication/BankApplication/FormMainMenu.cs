@@ -12,6 +12,7 @@ using BankApplication.Forms;
 using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
+using config_library;
 
 namespace BankApplication
 {
