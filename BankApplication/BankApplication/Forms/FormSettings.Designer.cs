@@ -37,9 +37,9 @@ namespace BankApplication.Forms
             this.config_control1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.config_control1.Location = new System.Drawing.Point(2, 1);
+            this.config_control1.Location = new System.Drawing.Point(0, 0);
             this.config_control1.Name = "config_control1";
-            this.config_control1.Size = new System.Drawing.Size(796, 448);
+            this.config_control1.Size = new System.Drawing.Size(799, 450);
             this.config_control1.TabIndex = 0;
             // 
             // FormSettings

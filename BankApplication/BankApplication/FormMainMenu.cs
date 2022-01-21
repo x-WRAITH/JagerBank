@@ -125,9 +125,24 @@ namespace BankApplication
         private void btnSettings_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color6);
+            config jakub = new config();
+            jakub.setUser(Convert.ToString(bankapp.user.id));
             OpenChildForm(new FormSettings());
-            config asd = new config();
-            asd.setUser(Convert.ToString(bankapp.user.id));
+            jakub.LaunguageChanged += Jakub_LaunguageChanged;
+            jakub.ColorChanged += Jakub_ColorChanged;
+
+        }
+
+        private void Jakub_ColorChanged(object o, EventArgs e)
+        {
+            config jakub = new config();
+            var kolor = jakub.returnColor();
+        }
+
+        private void Jakub_LaunguageChanged(object o, EventArgs e)
+        {
+            config jakub = new config();
+            var jezyk = jakub.returnLaunguage();
         }
 
         private void btnCards_Click(object sender, EventArgs e)
