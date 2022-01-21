@@ -26,7 +26,7 @@ namespace BankApplication
         public FormMainMenu()
         {
             InitializeComponent();
-            bankapp.user = new User{ id=1, type=UserType.User };
+            bankapp.user = new User{ id=1, type=UserType.User, balance=2000, password="Asdasd", firstname="Kamil" };
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
@@ -161,7 +161,7 @@ namespace BankApplication
         private void btnOnlinehelp_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color8);
-            OpenChildForm(new FormJagerBank());
+            OpenChildForm(new FormDashboard());
             TechSupportControl.OpenSupport(bankapp);
         }
         //drag from
