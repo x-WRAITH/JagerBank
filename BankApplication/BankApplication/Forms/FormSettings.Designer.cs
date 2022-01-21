@@ -1,7 +1,7 @@
 ﻿
 namespace BankApplication.Forms
 {
-    partial class FormExchange
+    partial class FormSettings
     {
         /// <summary>
         /// Required designer variable.

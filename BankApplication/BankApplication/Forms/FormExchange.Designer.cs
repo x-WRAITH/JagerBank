@@ -1,7 +1,7 @@
 ﻿
 namespace BankApplication.Forms
 {
-    partial class FormExchange
+    partial class FormSettings
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,14 @@ namespace BankApplication.Forms
         {
             this.SuspendLayout();
             // 
-            // FormExchange
+            // FormSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "FormExchange";
-            this.Text = "Currency Exchange";
+            this.Name = "FormSettings";
+            this.Text = "Settings";
             this.ResumeLayout(false);
 
         }
