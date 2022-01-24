@@ -33,8 +33,10 @@ namespace BankApplication.Forms
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.admin1 = new Admin.Admin();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // workers1
@@ -70,6 +72,7 @@ namespace BankApplication.Forms
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.admin1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -77,6 +80,13 @@ namespace BankApplication.Forms
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Admins";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // admin1
+            // 
+            this.admin1.Location = new System.Drawing.Point(0, 0);
+            this.admin1.Name = "admin1";
+            this.admin1.Size = new System.Drawing.Size(949, 536);
+            this.admin1.TabIndex = 0;
             // 
             // FormAdmin
             // 
@@ -91,6 +101,7 @@ namespace BankApplication.Forms
             this.Text = "Admin Panel";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -101,5 +112,6 @@ namespace BankApplication.Forms
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private Admin.Admin admin1;
     }
 }

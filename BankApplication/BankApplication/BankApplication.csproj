@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdminLibrary">
+      <HintPath>..\..\..\..\..\Desktop\asdasdasd\AdminLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="BibliotekaPracownicy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Desktop\Debug\BibliotekaPracownicy.dll</HintPath>
