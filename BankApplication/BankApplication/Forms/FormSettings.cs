@@ -11,7 +11,7 @@ namespace BankApplication.Forms
             InitializeComponent();
             config asd = new config();
 
-            asd.setUser(Convert.ToString(3));
+            //asd.setUser(Convert.ToString(45));
         }
     }
 }
