@@ -27,7 +27,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=24, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos" };
+            bankapp.user = new User{ id=24, type=UserType.Employee, balance=1327.35, password="Asdasd", firstname="Maciejos" };
 
             //jakub.setUser(Convert.ToString(bankapp.user.id)); 
 
@@ -40,11 +40,11 @@ namespace BankApplication
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             OpenChildForm(new FormJagerBank());
-
-            if(bankapp.user.type == UserType.User) {
-                btnDashboard.Text = "Dashboard";
+            if (bankapp.user.type == UserType.User) {
             } else {
                 btnDashboard.Text = "Panel Admin";
+                btnDashboard.IconChar = IconChar.UserCog;
+                btnOnlinehelp.IconChar = IconChar.Headset;
                 btnCards.Visible = false;
                 btnFriends.Visible = false;
                 btnTransfers.Visible = false;

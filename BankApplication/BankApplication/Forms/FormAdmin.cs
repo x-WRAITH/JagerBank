@@ -13,11 +13,9 @@ namespace BankApplication.Forms
 {
     public partial class FormAdmin : Form
     {
-        public Class1 krystian = new Class1();
         public FormAdmin()
         {
             InitializeComponent();
-            krystian.wyswietl();
         }
     }
 }

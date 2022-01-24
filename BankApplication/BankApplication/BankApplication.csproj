@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="BibliotekaPracownicy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\BibliotekaPracownicy.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Debug\BibliotekaPracownicy.dll</HintPath>
     </Reference>
     <Reference Include="ClassLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -58,7 +58,7 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NSAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -177,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAdmin.resx">
       <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFriends.resx">
+      <DependentUpon>FormFriends.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormSettings.resx">
       <DependentUpon>FormSettings.cs</DependentUpon>

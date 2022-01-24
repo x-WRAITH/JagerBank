@@ -291,7 +291,7 @@ namespace BankApplication
             this.panelBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelBar.Location = new System.Drawing.Point(173, 0);
             this.panelBar.Name = "panelBar";
-            this.panelBar.Size = new System.Drawing.Size(901, 75);
+            this.panelBar.Size = new System.Drawing.Size(961, 75);
             this.panelBar.TabIndex = 9;
             this.panelBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelBar_MouseDown);
             // 
@@ -325,7 +325,7 @@ namespace BankApplication
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelShadow.Location = new System.Drawing.Point(173, 75);
             this.panelShadow.Name = "panelShadow";
-            this.panelShadow.Size = new System.Drawing.Size(901, 9);
+            this.panelShadow.Size = new System.Drawing.Size(961, 9);
             this.panelShadow.TabIndex = 10;
             // 
             // panelDesktop
@@ -334,7 +334,7 @@ namespace BankApplication
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(173, 84);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(901, 537);
+            this.panelDesktop.Size = new System.Drawing.Size(961, 537);
             this.panelDesktop.TabIndex = 11;
             // 
             // label1
@@ -355,12 +355,12 @@ namespace BankApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.ClientSize = new System.Drawing.Size(1074, 621);
+            this.ClientSize = new System.Drawing.Size(1134, 621);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panelBar);
             this.Controls.Add(this.panelMenu);
-            this.MinimumSize = new System.Drawing.Size(1090, 660);
+            this.MinimumSize = new System.Drawing.Size(1150, 660);
             this.Name = "FormMainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jäger Bänk";
