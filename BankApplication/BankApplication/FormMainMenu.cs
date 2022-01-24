@@ -27,7 +27,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=3, type=UserType.Employee, balance=2000, password="Asdasd", firstname="Kamil" };
+            bankapp.user = new User{ id=3, type=UserType.User, balance=2000, password="Asdasd", firstname="Kamil" };
 
             jakub.setUser(Convert.ToString(bankapp.user.id)); //kuby dziwna kontrolka xddd
 
@@ -40,6 +40,17 @@ namespace BankApplication
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             OpenChildForm(new FormJagerBank());
+
+            if(bankapp.user.type == UserType.User) {
+                btnDashboard.Text = "Dashboard";
+            } else {
+                btnDashboard.Text = "Panel Admin";
+                btnCards.Visible = false;
+                btnFriends.Visible = false;
+                btnTransfers.Visible = false;
+                btnStockmarket.Visible = false;
+                btnExchange.Visible = false;
+            }
         }
 
         private struct RGBColor
@@ -184,7 +195,6 @@ namespace BankApplication
         private void btnOnlinehelp_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color8);
-            OpenChildForm(new FormDashboard());
             TechSupportControl.OpenSupport(bankapp);
         }
         //drag from

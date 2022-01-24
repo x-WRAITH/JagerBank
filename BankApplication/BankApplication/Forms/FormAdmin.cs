@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BankApplication.Forms
 {
-    public partial class FormDashboard : Form
+    public partial class FormAdmin : Form
     {
-        public FormDashboard()
+        public FormAdmin()
         {
             InitializeComponent();
         }
