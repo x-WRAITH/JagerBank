@@ -7,7 +7,6 @@ using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
 using config_library;
-using BibliotekaPracownicy;
 
 namespace BankApplication
 {
@@ -15,7 +14,7 @@ namespace BankApplication
     {
         public BankApp bankapp = new BankApp();
         public config jakub = new config(); //kuby dziwna kontrolka xddd
-        public Class1 krystian = new Class1();
+        
 
         
 
@@ -28,7 +27,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=3, type=UserType.User, balance=2000, password="Asdasd", firstname="Kamil" };
+            bankapp.user = new User{ id=3, type=UserType.Employee, balance=2000, password="Asdasd", firstname="Kamil" };
 
             jakub.setUser(Convert.ToString(bankapp.user.id)); //kuby dziwna kontrolka xddd
 
@@ -125,7 +124,11 @@ namespace BankApplication
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color1);
-            OpenChildForm(new FormDashboard());
+            if(bankapp.user.type == UserType.User) {
+                OpenChildForm(new FormDashboard());
+            } else {
+                OpenChildForm(new FormAdmin());
+            }
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
