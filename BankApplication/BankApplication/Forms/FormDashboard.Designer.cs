@@ -32,7 +32,8 @@ namespace BankApplication.Forms
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label_Balance = new System.Windows.Forms.Label();
+            this.label_Name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,9 +47,9 @@ namespace BankApplication.Forms
             this.label2.ForeColor = System.Drawing.Color.Gainsboro;
             this.label2.Location = new System.Drawing.Point(381, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 28);
+            this.label2.Size = new System.Drawing.Size(67, 28);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Witaj, Test";
+            this.label2.Text = "Witaj, ";
             // 
             // iconPictureBox1
             // 
@@ -78,16 +79,30 @@ namespace BankApplication.Forms
             this.label1.TabIndex = 3;
             this.label1.Text = "Dostępne środki";
             // 
-            // label3
+            // label_Balance
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Historic", 15F);
-            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label3.Location = new System.Drawing.Point(378, 182);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 28);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "3, 500 PLN";
+            this.label_Balance.AutoSize = true;
+            this.label_Balance.Font = new System.Drawing.Font("Segoe UI Historic", 15F);
+            this.label_Balance.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label_Balance.Location = new System.Drawing.Point(378, 182);
+            this.label_Balance.Name = "label_Balance";
+            this.label_Balance.Size = new System.Drawing.Size(105, 28);
+            this.label_Balance.TabIndex = 4;
+            this.label_Balance.Text = "3, 500 PLN";
+            // 
+            // label_Name
+            // 
+            this.label_Name.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label_Name.AutoSize = true;
+            this.label_Name.Font = new System.Drawing.Font("Segoe UI Historic", 15F);
+            this.label_Name.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label_Name.Location = new System.Drawing.Point(437, 110);
+            this.label_Name.Name = "label_Name";
+            this.label_Name.Size = new System.Drawing.Size(61, 28);
+            this.label_Name.TabIndex = 5;
+            this.label_Name.Text = "Kamil";
             // 
             // FormDashboard
             // 
@@ -95,7 +110,8 @@ namespace BankApplication.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(885, 498);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label_Name);
+            this.Controls.Add(this.label_Balance);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
@@ -113,6 +129,7 @@ namespace BankApplication.Forms
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_Balance;
+        private System.Windows.Forms.Label label_Name;
     }
 }

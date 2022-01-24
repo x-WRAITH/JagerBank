@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BibliotekaPracownicy;
 
 namespace BankApplication.Forms
 {
     public partial class FormAdmin : Form
     {
+        public Class1 krystian = new Class1();
         public FormAdmin()
         {
             InitializeComponent();
+            krystian.wyswietl();
         }
     }
 }

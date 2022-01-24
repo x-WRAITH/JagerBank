@@ -27,7 +27,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=3, type=UserType.User, balance=2000, password="Asdasd", firstname="Kamil" };
+            bankapp.user = new User{ id=24, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos" };
 
             jakub.setUser(Convert.ToString(bankapp.user.id)); //kuby dziwna kontrolka xddd
 

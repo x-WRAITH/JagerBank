@@ -12,9 +12,13 @@ namespace BankApplication.Forms
 {
     public partial class FormDashboard : Form
     {
+        public FormMainMenu fmm = new FormMainMenu();
         public FormDashboard()
         {
+            
             InitializeComponent();
+            label_Balance.Text = fmm.bankapp.user.balance + " PLN";
+            label_Name.Text = fmm.bankapp.user.firstname;
         }
     }
 }
