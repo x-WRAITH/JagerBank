@@ -7,6 +7,7 @@ using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
 using config_library;
+using BibliotekaPracownicy;
 
 namespace BankApplication
 {
@@ -14,6 +15,9 @@ namespace BankApplication
     {
         public BankApp bankapp = new BankApp();
         public config jakub = new config(); //kuby dziwna kontrolka xddd
+        public Class1 krystian = new Class1();
+
+        
 
         private IconButton currentBtn;
         private Panel leftBorderBtn;
