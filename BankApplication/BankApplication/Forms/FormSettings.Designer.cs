@@ -29,7 +29,7 @@ namespace BankApplication.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.config_control1 = new config_library.config_control();
+            this.config_control1 = new ConfigLibrary.config_control();
             this.SuspendLayout();
             // 
             // config_control1
@@ -57,6 +57,6 @@ namespace BankApplication.Forms
 
         #endregion
 
-        private config_library.config_control config_control1;
+        private ConfigLibrary.config_control config_control1;
     }
 }

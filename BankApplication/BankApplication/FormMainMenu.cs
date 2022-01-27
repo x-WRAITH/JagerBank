@@ -6,7 +6,7 @@ using BankApplication.Forms;
 using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
-using config_library;
+using ConfigLibrary;
 
 namespace BankApplication
 {
@@ -27,7 +27,8 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=24, type=UserType.Employee, balance=1327.35, password="Asdasd", firstname="Maciejos" };
+            bankapp.user = new User{ id=24, type=UserType.Employee, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
+
 
             //jakub.setUser(Convert.ToString(bankapp.user.id)); 
 
@@ -146,6 +147,7 @@ namespace BankApplication
         {
             ActivateButton(sender, RGBColor.color6);
             OpenChildForm(new FormSettings());
+            //jakub.setUser(Convert.ToString(bankapp.user.id));
             jakub.LaunguageChanged += Jakub_LaunguageChanged;
             jakub.ColorChanged += Jakub_ColorChanged;
 

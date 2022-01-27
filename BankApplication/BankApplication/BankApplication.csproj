@@ -46,9 +46,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\ClassLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="config_library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\nowe\config_library.dll</HintPath>
+    <Reference Include="ConfigLibrary">
+      <HintPath>..\..\..\..\..\Desktop\config_dll\ConfigLibrary.dll</HintPath>
     </Reference>
     <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
@@ -61,7 +60,7 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\Debug\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\config_dll\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NSAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

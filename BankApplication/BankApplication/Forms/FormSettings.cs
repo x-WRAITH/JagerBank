@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using config_library;
+using ConfigLibrary;
 
 namespace BankApplication.Forms
 {
@@ -11,7 +11,7 @@ namespace BankApplication.Forms
             InitializeComponent();
             config asd = new config();
 
-            //asd.setUser(Convert.ToString(45));
+            //asd.setUser(Convert.ToString(2));
         }
     }
 }
