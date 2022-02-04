@@ -25,6 +25,7 @@ namespace BankApplication
             InitializeComponent();
 
             bankapp.user = szyja;
+            Console.WriteLine(bankapp.user.type);
             //config jakub = new config(Convert.ToString(bankapp.user.id));
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
@@ -34,6 +35,7 @@ namespace BankApplication
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             OpenChildForm(new FormJagerBank());
+
             if (bankapp.user.type == UserType.User) {
             } else {
                 btnDashboard.Text = "Panel Admin";
@@ -205,6 +207,11 @@ namespace BankApplication
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
