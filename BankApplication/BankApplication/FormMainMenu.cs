@@ -29,7 +29,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=39, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
+            bankapp.user = new User{ id=2, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
 
 
             //jakub.setUser(Convert.ToString(bankapp.user.id)); 
