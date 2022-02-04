@@ -7,16 +7,14 @@ using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
 using CardsDev;
-//using ConfigLibrary;
+using ConfigLibrary;
 
 namespace BankApplication
 {
     public partial class FormMainMenu : Form
     {
         public BankApp bankapp = new BankApp();
-        //public config jakubson = new config();
         public Starter starter = new Starter();
-
 
 
 
@@ -30,11 +28,7 @@ namespace BankApplication
 
 
             bankapp.user = new User{ id=2, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
-
-
-            //jakub.setUser(Convert.ToString(bankapp.user.id)); 
-
-
+            //config jakub = new config(Convert.ToString(bankapp.user.id));
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
