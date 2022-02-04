@@ -16,18 +16,16 @@ namespace BankApplication
         public BankApp bankapp = new BankApp();
         public Starter starter = new Starter();
 
-
-
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
 
-        public FormMainMenu()
+        public FormMainMenu(User szyja)
         {
             InitializeComponent();
 
-
-            bankapp.user = new User{ id=2, type=UserType.Employee, balance=2115997.35, password="Asdasd", firstname="Maciejos", name="asds" };
+            bankapp.user = szyja;
+            Console.WriteLine(szyja.id);
             //config jakub = new config(Convert.ToString(bankapp.user.id));
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
@@ -48,6 +46,10 @@ namespace BankApplication
                 btnStockmarket.Visible = false;
                 btnExchange.Visible = false;
             }
+        }
+
+        public FormMainMenu()
+        {
         }
 
         private struct RGBColor
@@ -133,7 +135,7 @@ namespace BankApplication
         {
             ActivateButton(sender, RGBColor.color1);
             if(bankapp.user.type == UserType.User) {
-                OpenChildForm(new FormDashboard());
+                OpenChildForm(new FormDashboard(bankapp.user));
             } else {
                 OpenChildForm(new FormAdmin());
             }

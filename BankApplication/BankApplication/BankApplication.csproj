@@ -60,6 +60,9 @@
     <Reference Include="FontAwesome.Sharp.Pro, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.Pro.5.15.4\lib\net472\FontAwesome.Sharp.Pro.dll</HintPath>
     </Reference>
+    <Reference Include="Loginclasslibrary">
+      <HintPath>..\..\..\..\..\Desktop\Debug\Loginclasslibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -147,12 +150,6 @@
     <Compile Include="Forms\FormJagerBank.Designer.cs">
       <DependentUpon>FormJagerBank.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormCards.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormCards.Designer.cs">
-      <DependentUpon>FormCards.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FormDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,9 +190,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormJagerBank.resx">
       <DependentUpon>FormJagerBank.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormCards.resx">
-      <DependentUpon>FormCards.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormDashboard.resx">
       <DependentUpon>FormDashboard.cs</DependentUpon>

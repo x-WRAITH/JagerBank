@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,12 +14,12 @@ namespace BankApplication.Forms
     public partial class FormDashboard : Form
     {
         public FormMainMenu fmm = new FormMainMenu();
-        public FormDashboard()
+        public FormDashboard(User user)
         {
             
             InitializeComponent();
-            label_Balance.Text = fmm.bankapp.user.balance + " PLN";
-            label_Name.Text = fmm.bankapp.user.firstname;
+            label_Balance.Text = user.balance + " PLN";
+            label_Name.Text = user.firstname;
         }
     }
 }
