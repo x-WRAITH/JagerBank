@@ -6,14 +6,16 @@ using BankApplication.Forms;
 using FontAwesome.Sharp;
 using ClassLibrary;
 using TechSupport;
-using ConfigLibrary;
+using CardsDev;
+//using ConfigLibrary;
 
 namespace BankApplication
 {
     public partial class FormMainMenu : Form
     {
         public BankApp bankapp = new BankApp();
-        public config jakubson = new config();
+        //public config jakubson = new config();
+        public Starter starter = new Starter();
 
 
 
@@ -27,7 +29,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=24, type=UserType.Employee, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
+            bankapp.user = new User{ id=39, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
 
 
             //jakub.setUser(Convert.ToString(bankapp.user.id)); 
@@ -147,28 +149,28 @@ namespace BankApplication
         {
             ActivateButton(sender, RGBColor.color6);
             OpenChildForm(new FormSettings());
-            jakubson.setUser(Convert.ToString(bankapp.user.id));
-            jakubson.LaunguageChanged += Jakub_LaunguageChanged;
-            jakubson.ColorChanged += Jakub_ColorChanged;
+            //jakubson.setUser(Convert.ToString(bankapp.user.id));
+            //jakubson.LaunguageChanged += Jakub_LaunguageChanged;
+            //jakubson.ColorChanged += Jakub_ColorChanged;
 
         }
 
         private void Jakub_ColorChanged(object o, EventArgs e)
         {
-            config jakub = new config();
-            var kolor = jakub.returnColor();
+            //config jakub = new config();
+            //var kolor = jakub.returnColor();
         }
 
         private void Jakub_LaunguageChanged(object o, EventArgs e)
         {
-            config jakub = new config();
-            var jezyk = jakub.returnLaunguage();
+            //config jakub = new config();
+            //var jezyk = jakub.returnLaunguage();
         }
 
         private void btnCards_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color3);
-            OpenChildForm(new FormCards());
+            starter.Open(bankapp.user.id);
         }
 
         private void btnTransfers_Click(object sender, EventArgs e)
