@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using Loginclasslibrary;
+using System.Runtime;
 
 namespace BankApplication
 {
@@ -24,7 +25,6 @@ namespace BankApplication
                 if (szyja == null) return;
                     Application.Run(new FormMainMenu(szyja));
             }catch{
-                Application.Run(new FormMainMenu());
                 MessageBox.Show("Brak połączenia z serwerem, proszę sprawdzić połączenie z internetem lub zaczekać chwilę.",
                     "Jäger Bänk", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

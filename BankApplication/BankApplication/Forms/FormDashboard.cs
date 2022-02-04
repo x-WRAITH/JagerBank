@@ -13,7 +13,6 @@ namespace BankApplication.Forms
 {
     public partial class FormDashboard : Form
     {
-        public FormMainMenu fmm = new FormMainMenu();
         public FormDashboard(User user)
         {
             

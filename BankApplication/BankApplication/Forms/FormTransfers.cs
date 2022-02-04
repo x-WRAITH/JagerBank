@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,8 @@ namespace BankApplication.Forms
         public FormTransfers()
         {
             InitializeComponent();
+            
+
         }
     }
 }

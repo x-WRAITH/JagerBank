@@ -25,7 +25,6 @@ namespace BankApplication
             InitializeComponent();
 
             bankapp.user = szyja;
-            Console.WriteLine(szyja.id);
             //config jakub = new config(Convert.ToString(bankapp.user.id));
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
