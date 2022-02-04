@@ -27,7 +27,7 @@ namespace BankApplication
             InitializeComponent();
 
 
-            bankapp.user = new User{ id=2, type=UserType.User, balance=1327.35, password="Asdasd", firstname="Maciejos", name="asds" };
+            bankapp.user = new User{ id=2, type=UserType.Employee, balance=2115997.35, password="Asdasd", firstname="Maciejos", name="asds" };
             //config jakub = new config(Convert.ToString(bankapp.user.id));
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);

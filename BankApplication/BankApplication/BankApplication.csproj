@@ -40,7 +40,7 @@
     </Reference>
     <Reference Include="BibliotekaPracownicy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\Debug\BibliotekaPracownicy.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\BibliotekaPracownicy.dll</HintPath>
     </Reference>
     <Reference Include="CardsDevClassLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
